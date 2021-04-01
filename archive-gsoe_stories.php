@@ -31,13 +31,14 @@
 
 ?>
 
+<h2>Alumni Achievements</h2>
 
 <form method="get" id="program-filter">
 
 <div class="row">
 	<div class="col-sm-6">
 		<label for="program-select">View by Program</label><br />
-		<select id="program-select" name="program" onchange="this.form.submit()"><option value="">All Programs</option>
+		<select id="program-select" name="program" onchange="this.form.submit()" class="full-size"><option value="">All Programs</option>
 			<?php foreach($all_programs as $key=>$term){
 				$is_selected = (isset($_GET['program']) && $_GET['program'] == $term->slug) ? 'selected' : '';
 				echo '<option value="'.$term->slug.'" '.$is_selected.'>'.$term->name.'</option>';
