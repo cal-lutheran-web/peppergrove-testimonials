@@ -33,6 +33,8 @@
 
 <h2>Alumni Achievements</h2>
 
+<hr />
+
 <form method="get" id="program-filter">
 
 <div class="row">
