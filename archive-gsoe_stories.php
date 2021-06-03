@@ -31,9 +31,6 @@
 
 ?>
 
-<h2>Alumni Achievements</h2>
-
-
 
 <form method="get" id="program-filter">
 
